@@ -1,0 +1,140 @@
+.head {
+    display: flex;
+    align-items: center;
+    background: color #EBECF0;
+    box-shadow: -3px -3px 7px #ffffff,
+        3px 3px 5px #ceced1,
+        inset -3px -3px 7px #ffffff,
+        inset 3px 3px 5px #ceced1;
+}
+
+.head .heading {
+    display: flex;
+    text-align: center;
+    margin-left: 40px;
+    width: 90%;
+    color: #666;
+    justify-content: center;
+}
+
+.btn {
+    border-radius: 3px;
+    background: #e0e5ec;
+    border: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+    box-shadow:
+        -7px -7px 20px 0px #fff9,
+        -4px -4px 5px 0px #fff9,
+        7px 7px 20px 0px #0002,
+        4px 4px 5px 0px #0001;
+    transition: box-shadow 0.6s cubic-bezier(.79, .21, .06, .81);
+    font-size: 15px;
+    color: #666;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 10px 5px;
+    padding: 10px 20px;
+}
+
+
+.btn:active {
+    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .5),
+        -4px -4px 6px 0 rgba(116, 125, 136, .2),
+        inset -4px -4px 6px 0 rgba(255, 255, 255, .5),
+        inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+}
+
+
+/* #########################  Create Styling ################## */
+.main {
+    width: 50%;
+    /* border:2px solid red ; */
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px 0 auto;
+    padding: 10px;
+    background: color #e0e5ec;
+    box-shadow: 3px 3px 16px rgb(163, 177, 198, 0.6) inset, -9px -9px 16px rgba(255, 255, 255, 0.5)inset;
+    border-radius: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+    box-shadow:
+        -7px -7px 20px 0px #fff9,
+        -4px -4px 5px 0px #fff9,
+        7px 7px 20px 0px #0002,
+        4px 4px 5px 0px #0001;
+    transition: box-shadow 0.6s cubic-bezier(.79, .21, .06, .81);
+}
+
+.main h1 {
+    text-align: center;
+    color: #565656;
+
+}
+
+.main form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ######################## Retrieve Styling ##################### */
+
+.retrieve {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+.retrieve h1 {
+    margin-left: 100px;
+
+}
+
+.table {
+    /* box-shadow: 12px 12px 16px #ffffff, 12px 12px 16px #a3b1c6; */
+    width: 90%;
+    margin: auto;
+}
+
+.retrieve button {
+    background-color: white;
+    border: none;
+    outline: none;
+}
+
+
+
+.input {
+    /* margin-right: $ruler/2; */
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #ffffff;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.input:focus {
+    box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #ffffff;
+}
+
+
+/* ################### Update Styling ################# */
+.update {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+.backbtn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-radius: 50%;
+    padding: 5px;
+}
